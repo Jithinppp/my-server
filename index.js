@@ -4,6 +4,7 @@ const CITIES_DATA = require("./data/cities.json");
 
 const app = express();
 const PORT = 6000;
+
 app.get("/", (req, res) => {
   res.send("welcome to my server");
 });
@@ -16,4 +17,8 @@ app.get("/cities", (req, res) => {
   res.json(CITIES_DATA);
 });
 
-app.listen(3000);
+app.listen(PORT, () => {
+  console.log("app listening on port", PORT);
+});
+
+module.exports = app;
