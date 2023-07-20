@@ -1,0 +1,36 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "cityName": "Delhi",
+      "position": { "lat": "28.6100", "lng": "77.2300" },
+      "notes": "the capital i loved it",
+      "country": "india",
+      "date": "Thu Jul 20 2023"
+    },
+    {
+      "id": 2,
+      "cityName": "Mumbai",
+      "position": { "lat": "19.0761", "lng": "72.8775" },
+      "notes": "the capital city of money",
+      "country": "india",
+      "date": "Mon Jan 10 2022"
+    },
+    {
+      "id": 3,
+      "cityName": "Bangalore",
+      "position": { "lat": "12.9789", "lng": "77.5917" },
+      "notes": "the silicon valley of india",
+      "country": "india",
+      "date": "Wed Feb 1 2023"
+    },
+    {
+      "id": 4,
+      "cityName": "Barcelona",
+      "position": { "lat": "41.390205", "lng": "2.1686" },
+      "notes": "capital of Spain’s Catalonia",
+      "country": "spain",
+      "date": "Wed Feb 1 2023"
+    }
+  ]
+}
